@@ -1,0 +1,10 @@
+path: D:\armor_detect\dataset
+train: D:\armor_detect\dataset\train\images
+val: D:\armor_detect\dataset\val\images
+test: D:\armor_detect\dataset\test\images
+
+nc: 12
+names: ["B1","B2","B3","B4","B5","B7","R1","R2","R3","R4","R5","R7"]
+
+#yolo task=detect mode=train model=yolo11n.pt data=D:\armor_detect\data.yaml epochs=50 imgsz=640 batch=8 device=0
+#yolo train model=yolov8n.pt data=D:\armor_detect\data.yaml epochs=50 imgsz=640  workers=0 device=0
